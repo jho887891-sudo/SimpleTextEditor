@@ -24,6 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         aboutdialog.h aboutdialog.cpp
+        finddialog.h finddialog.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SimpleTextEditor2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -41,6 +42,8 @@ else()
             ${PROJECT_SOURCES}
             aboutdialog.cpp
             aboutdialog.h
+            finddialog.h
+            finddialog.cpp
         )
     endif()
 endif()
