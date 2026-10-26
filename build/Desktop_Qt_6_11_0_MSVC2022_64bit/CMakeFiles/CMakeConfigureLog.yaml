@@ -1,0 +1,412 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/vs2022/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+      鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:23銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.24
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-6t3rnd"
+      binary: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-6t3rnd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-6t3rnd'
+        
+        Run Build Command(s): D:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_abc45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:25銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-6t3rnd\\cmTC_abc45.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_abc45.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-6t3rnd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_abc45.dir\\Debug\\cmTC_abc45.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_abc45.dir\\Debug\\cmTC_abc45.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_abc45.dir\\Debug\\cmTC_abc45.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_abc45.dir\\Debug\\\\" /Fd"cmTC_abc45.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\applycation\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35226 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_abc45.dir\\Debug\\\\" /Fd"cmTC_abc45.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\applycation\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-6t3rnd\\Debug\\cmTC_abc45.exe" /INCREMENTAL /ILK:"cmTC_abc45.dir\\Debug\\cmTC_abc45.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-6t3rnd/Debug/cmTC_abc45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-6t3rnd/Debug/cmTC_abc45.lib" /MACHINE:X64  /machine:x64 cmTC_abc45.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_abc45.vcxproj -> D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-6t3rnd\\Debug\\cmTC_abc45.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_abc45.dir\\Debug\\cmTC_abc45.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_abc45.dir\\Debug\\cmTC_abc45.tlog\\cmTC_abc45.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-6t3rnd\\cmTC_abc45.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/vs2022/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/vs2022/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35226.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9s2n5a"
+      binary: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9s2n5a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9s2n5a'
+        
+        Run Build Command(s): D:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_306de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\cmTC_306de.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_306de.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_306de.dir\\Debug\\cmTC_306de.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_306de.dir\\Debug\\cmTC_306de.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_306de.dir\\Debug\\cmTC_306de.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_306de.dir\\Debug\\\\" /Fd"cmTC_306de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35226 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_306de.dir\\Debug\\\\" /Fd"cmTC_306de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\src.cxx"
+          src.cxx
+        D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\cmTC_306de.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\cmTC_306de.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\cmTC_306de.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9s2n5a\\cmTC_306de.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-flqwu4"
+      binary: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-flqwu4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-flqwu4'
+        
+        Run Build Command(s): D:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c6825.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:28銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\cmTC_c6825.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6825.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6825.dir\\Debug\\cmTC_c6825.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c6825.dir\\Debug\\cmTC_c6825.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c6825.dir\\Debug\\cmTC_c6825.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c6825.dir\\Debug\\\\" /Fd"cmTC_c6825.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35226 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c6825.dir\\Debug\\\\" /Fd"cmTC_c6825.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\Debug\\cmTC_c6825.exe" /INCREMENTAL /ILK:"cmTC_c6825.dir\\Debug\\cmTC_c6825.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-flqwu4/Debug/cmTC_c6825.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-flqwu4/Debug/cmTC_c6825.lib" /MACHINE:X64  /machine:x64 cmTC_c6825.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\cmTC_c6825.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\cmTC_c6825.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\cmTC_c6825.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-flqwu4\\cmTC_c6825.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.90
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-ro4rxx"
+      binary: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-ro4rxx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-ro4rxx'
+        
+        Run Build Command(s): D:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_76c37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\cmTC_76c37.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_76c37.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_76c37.dir\\Debug\\cmTC_76c37.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_76c37.dir\\Debug\\cmTC_76c37.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_76c37.dir\\Debug\\cmTC_76c37.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_76c37.dir\\Debug\\\\" /Fd"cmTC_76c37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35226 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_76c37.dir\\Debug\\\\" /Fd"cmTC_76c37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\Debug\\cmTC_76c37.exe" /INCREMENTAL /ILK:"cmTC_76c37.dir\\Debug\\cmTC_76c37.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-ro4rxx/Debug/cmTC_76c37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-ro4rxx/Debug/cmTC_76c37.lib" /MACHINE:X64  /machine:x64 cmTC_76c37.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\cmTC_76c37.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\cmTC_76c37.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\cmTC_76c37.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-ro4rxx\\cmTC_76c37.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.77
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "E:/applycation/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9k3wyq"
+      binary: "D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9k3wyq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/applycation/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9k3wyq'
+        
+        Run Build Command(s): D:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_06056.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/10/26 20:51:31銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\cmTC_06056.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06056.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06056.dir\\Debug\\cmTC_06056.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_06056.dir\\Debug\\cmTC_06056.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06056.dir\\Debug\\cmTC_06056.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_06056.dir\\Debug\\\\" /Fd"cmTC_06056.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35226 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_06056.dir\\Debug\\\\" /Fd"cmTC_06056.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\src.cxx"
+          src.cxx
+        Link:
+          D:\\vs2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\Debug\\cmTC_06056.exe" /INCREMENTAL /ILK:"cmTC_06056.dir\\Debug\\cmTC_06056.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9k3wyq/Debug/cmTC_06056.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/CMakeScratch/TryCompile-9k3wyq/Debug/cmTC_06056.lib" /MACHINE:X64  /machine:x64 cmTC_06056.dir\\Debug\\src.obj
+          cmTC_06056.vcxproj -> D:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\Debug\\cmTC_06056.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_06056.dir\\Debug\\cmTC_06056.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06056.dir\\Debug\\cmTC_06056.tlog\\cmTC_06056.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\qt_project\\test_2\\SimpleTextEditor2\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit\\CMakeFiles\\CMakeScratch\\TryCompile-9k3wyq\\cmTC_06056.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.42
+        
+      exitCode: 0
+...

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\CMakeFiles\ee240fcde0d23379d1fb715d12bb459c\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\qt_project\test_2\SimpleTextEditor2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\qt_project\test_2\SimpleTextEditor2\mainwindow.ui">
+      <Filter>Forms</Filter>
+    </None>
+    <None Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\autouic_Debug.stamp" />
+    <None Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\autouic_Release.stamp" />
+    <None Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{31FFAD59-AD89-35B0-888B-263EEA63DAE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{CD604ED1-9BF0-33E2-B934-9842381E987D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{92654DD6-BBF3-3FFD-853A-B4B1E367E19C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{99A19536-9FE9-3A51-AF4A-4A683AA3A656}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

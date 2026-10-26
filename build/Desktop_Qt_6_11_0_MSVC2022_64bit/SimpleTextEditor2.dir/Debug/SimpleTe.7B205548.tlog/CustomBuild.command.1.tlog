@@ -1,0 +1,22 @@
+^D:\QT_PROJECT\TEST_2\SIMPLETEXTEDITOR2\BUILD\DESKTOP_QT_6_11_0_MSVC2022_64BIT\CMAKEFILES\EE240FCDE0D23379D1FB715D12BB459C\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\QT_PROJECT\TEST_2\SIMPLETEXTEDITOR2\CMAKELISTS.TXT
+setlocal
+E:\applycation\Qt\Tools\CMake_64\bin\cmake.exe -SD:/qt_project/test_2/SimpleTextEditor2 -BD:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit --check-stamp-file D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
