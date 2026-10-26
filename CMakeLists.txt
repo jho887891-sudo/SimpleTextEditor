@@ -39,6 +39,8 @@ else()
     else()
         add_executable(SimpleTextEditor2
             ${PROJECT_SOURCES}
+            aboutdialog.cpp
+            aboutdialog.h
         )
     endif()
 endif()
