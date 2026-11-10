@@ -13,6 +13,12 @@
     <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\finddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\replacedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +34,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\finddialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\replacedialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_Debug\ui_mainwindow.h">

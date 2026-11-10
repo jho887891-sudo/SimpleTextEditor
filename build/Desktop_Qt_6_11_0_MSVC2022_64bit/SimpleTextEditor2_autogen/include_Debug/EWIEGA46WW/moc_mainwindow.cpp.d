@@ -56,6 +56,7 @@ D:/qt_project/test_2/SimpleTextEditor2/build/Desktop_Qt_6_11_0_MSVC2022_64bit/Si
   D:/vs2022/VC/Tools/MSVC/14.44.35207/include/version \
   D:/vs2022/VC/Tools/MSVC/14.44.35207/include/yvals.h \
   D:/vs2022/VC/Tools/MSVC/14.44.35207/include/yvals_core.h \
+  E:/applycation/Qt/6.11.0/msvc2022_64/include/QtCore/QString \
   E:/applycation/Qt/6.11.0/msvc2022_64/include/QtCore/q17memory.h \
   E:/applycation/Qt/6.11.0/msvc2022_64/include/QtCore/q20bit.h \
   E:/applycation/Qt/6.11.0/msvc2022_64/include/QtCore/q20functional.h \

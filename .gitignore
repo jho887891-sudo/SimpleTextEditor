@@ -1,0 +1,17 @@
+# CMake/Qt Creator local output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.user
+*.user.*
+.qtcreator/
+
+# compiler output
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb

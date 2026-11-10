@@ -363,9 +363,21 @@
 			null
 		],
 		[
+			"D:/qt_project/test_2/SimpleTextEditor2/finddialog.h",
+			"MU",
+			"EWIEGA46WW/moc_finddialog.cpp",
+			null
+		],
+		[
 			"D:/qt_project/test_2/SimpleTextEditor2/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/qt_project/test_2/SimpleTextEditor2/replacedialog.h",
+			"MU",
+			"EWIEGA46WW/moc_replacedialog.cpp",
 			null
 		]
 	],
@@ -516,8 +528,14 @@
 	"SOURCES" : 
 	[
 		[ "D:/qt_project/test_2/SimpleTextEditor2/aboutdialog.cpp", "MU", null ],
+		[ "D:/qt_project/test_2/SimpleTextEditor2/finddialog.cpp", "MU", null ],
 		[ "D:/qt_project/test_2/SimpleTextEditor2/main.cpp", "MU", null ],
-		[ "D:/qt_project/test_2/SimpleTextEditor2/mainwindow.cpp", "MU", null ]
+		[ "D:/qt_project/test_2/SimpleTextEditor2/mainwindow.cpp", "MU", null ],
+		[
+			"D:/qt_project/test_2/SimpleTextEditor2/replacedialog.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

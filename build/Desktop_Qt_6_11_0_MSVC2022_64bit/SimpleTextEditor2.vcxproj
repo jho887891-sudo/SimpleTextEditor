@@ -497,6 +497,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </None>
     <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.h" />
     <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\aboutdialog.cpp" />
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\finddialog.h" />
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\finddialog.cpp" />
+    <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\replacedialog.h" />
+    <ClCompile Include="D:\qt_project\test_2\SimpleTextEditor2\replacedialog.cpp" />
     <ClInclude Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\include_Debug\ui_mainwindow.h" />
     <None Include="D:\qt_project\test_2\SimpleTextEditor2\build\Desktop_Qt_6_11_0_MSVC2022_64bit\SimpleTextEditor2_autogen\autouic_Debug.stamp">
     </None>
