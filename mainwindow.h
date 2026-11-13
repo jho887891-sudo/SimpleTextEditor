@@ -43,6 +43,12 @@ private:
     void replaceAll(const QString &findText,
                     const QString &replaceText, bool caseSensitive);
 
+    // 第8项：光标位置、行数和文本长度
+    void updateEditorStatus();
+
+    // 第9项：剪切、复制、粘贴操作使能
+    void updateEditActions();
+
     Ui::MainWindow *ui;
     QString currentFilePath;
 };

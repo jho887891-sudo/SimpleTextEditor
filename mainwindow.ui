@@ -31,7 +31,7 @@
           <number>0</number>
         </property>
         <item>
-          <widget class="QPlainTextEdit" name="textEdit">
+          <widget class="CodeEditor" name="textEdit">
             <property name="placeholderText">
               <string>在这里输入文字…</string>
             </property>
@@ -254,6 +254,9 @@
       <property name="checkable">
         <bool>true</bool>
       </property>
+      <property name="checked">
+        <bool>true</bool>
+      </property>
       <property name="text">
         <string>显示行号(&amp;L)（选做）</string>
       </property>
@@ -301,6 +304,13 @@
       </property>
     </action>
   </widget>
+  <customwidgets>
+    <customwidget>
+      <class>CodeEditor</class>
+      <extends>QPlainTextEdit</extends>
+      <header>codeeditor.h</header>
+    </customwidget>
+  </customwidgets>
   <resources />
   <connections />
 </ui>

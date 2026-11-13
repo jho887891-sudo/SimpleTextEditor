@@ -13,42 +13,21 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+    main.cpp
+    mainwindow.cpp mainwindow.h mainwindow.ui
+    codeeditor.cpp codeeditor.h
+    aboutdialog.cpp aboutdialog.h
+    finddialog.cpp finddialog.h
+    replacedialog.cpp replacedialog.h
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+if(QT_VERSION_MAJOR GREATER_EQUAL 6)
     qt_add_executable(SimpleTextEditor2
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        aboutdialog.h aboutdialog.cpp
-        finddialog.h finddialog.cpp
-        replacedialog.h replacedialog.cpp
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET SimpleTextEditor2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
-    if(ANDROID)
-        add_library(SimpleTextEditor2 SHARED
-            ${PROJECT_SOURCES}
-        )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-    else()
-        add_executable(SimpleTextEditor2
-            ${PROJECT_SOURCES}
-            aboutdialog.cpp
-            aboutdialog.h
-            finddialog.h
-            finddialog.cpp
-            replacedialog.h
-            replacedialog.cpp
-        )
-    endif()
+    add_executable(SimpleTextEditor2 ${PROJECT_SOURCES})
 endif()
 
 target_link_libraries(SimpleTextEditor2 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)

@@ -1,11 +1,14 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "codeeditor.h"
 
 #include "aboutdialog.h"
 #include "finddialog.h"
 #include "replacedialog.h"
 
 #include <QAction>
+#include <QApplication>
+#include <QClipboard>
 #include <QCloseEvent>
 #include <QColor>
 #include <QColorDialog>
@@ -102,21 +105,36 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->actionStatusBar, &QAction::toggled,
             ui->statusBar, &QStatusBar::setVisible);
 
-    // 第 9 项可以继续完善 Action 使能规则；这里先让撤销/重做/剪切/复制随状态更新。
+    // 第8项：实时状态栏，更新长度、总行数和当前光标行/列。
+    connect(ui->textEdit, &QPlainTextEdit::cursorPositionChanged,
+            this, &MainWindow::updateEditorStatus);
+    connect(ui->textEdit, &QPlainTextEdit::textChanged,
+            this, &MainWindow::updateEditorStatus);
+    updateEditorStatus();
+
+    // 第9项：监听选区与剪贴板变化，更新 Cut/Copy/Paste 的可用状态。
+    connect(ui->textEdit, &QPlainTextEdit::copyAvailable,
+            this, [this](bool) { updateEditActions(); });
+    connect(QApplication::clipboard(), &QClipboard::dataChanged,
+            this, &MainWindow::updateEditActions);
+    connect(ui->textEdit, &QPlainTextEdit::textChanged,
+            this, &MainWindow::updateEditActions);
+    updateEditActions();
+
+    // 撤销和重做由编辑器自身提供的状态信号管理。
     ui->actionUndo->setEnabled(ui->textEdit->document()->isUndoAvailable());
     ui->actionRedo->setEnabled(ui->textEdit->document()->isRedoAvailable());
-    ui->actionCut->setEnabled(false);
-    ui->actionCopy->setEnabled(false);
     connect(ui->textEdit, &QPlainTextEdit::undoAvailable,
             ui->actionUndo, &QAction::setEnabled);
     connect(ui->textEdit, &QPlainTextEdit::redoAvailable,
             ui->actionRedo, &QAction::setEnabled);
-    connect(ui->textEdit, &QPlainTextEdit::copyAvailable,
-            ui->actionCopy, &QAction::setEnabled);
-    connect(ui->textEdit, &QPlainTextEdit::copyAvailable,
-            ui->actionCut, &QAction::setEnabled);
 
-    ui->statusBar->showMessage(QStringLiteral("就绪"));
+    // 第12项：通过 Qt Designer Promote，将 textEdit 升级为 CodeEditor。
+    // 自定义类仍继承 QPlainTextEdit，原有编辑接口全部兼容。
+    ui->actionLineNumbers->setCheckable(true);
+    connect(ui->actionLineNumbers, &QAction::toggled,
+            ui->textEdit, &CodeEditor::setLineNumbersVisible);
+    ui->textEdit->setLineNumbersVisible(ui->actionLineNumbers->isChecked());
 }
 
 MainWindow::~MainWindow()
@@ -326,4 +344,30 @@ void MainWindow::replaceAll(const QString &findText,
     cursor.endEditBlock();
     QMessageBox::information(this, QStringLiteral("全部替换"),
                              QStringLiteral("已替换 %1 处。").arg(count));
+}
+
+// 第8项：实时状态栏显示（行/列以 1 开始计数）。
+void MainWindow::updateEditorStatus()
+{
+    const QTextCursor cursor = ui->textEdit->textCursor();
+    const int row = cursor.blockNumber() + 1;
+    const int column = cursor.positionInBlock() + 1;
+    const int totalLines = ui->textEdit->document()->blockCount();
+    const int length = ui->textEdit->toPlainText().length();
+
+    ui->statusBar->showMessage(
+        QStringLiteral("长度：%1    总行数：%2    行：%3    列：%4")
+            .arg(length).arg(totalLines).arg(row).arg(column));
+}
+
+// 第9项：菜单和工具栏复用同一 QAction，因此只需控制 QAction 状态。
+void MainWindow::updateEditActions()
+{
+    const bool selected = ui->textEdit->textCursor().hasSelection();
+    const bool editable = !ui->textEdit->isReadOnly();
+
+    ui->actionCut->setEnabled(selected && editable);
+    ui->actionCopy->setEnabled(selected);
+    // canPaste() 由 QPlainTextEdit 判断当前剪贴板是否包含可粘贴内容。
+    ui->actionPaste->setEnabled(editable && ui->textEdit->canPaste());
 }
